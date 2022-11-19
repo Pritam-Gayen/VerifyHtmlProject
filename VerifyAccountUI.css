@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+#box {
+    
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    height: 70%;
+    width: 50%;
+    position:absolute;
+    top: 15%;
+    
+}
+
+.divsInside {
+    display: flex;
+    justify-content: center;    
+}
+.text {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputBox {
+    display: flex;
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgb(211, 208, 208);
+    border-radius: 5px;
+    height: 120px;
+    width: 75px;
+    margin: 5px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.inputBox:focus {
+    outline: none;
+    display: flex;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(33, 163, 196);
+}
+.inputBox:hover {
+    outline: none;
+    display: flex;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(33, 163, 196);
+}
+.inputBox:valid {
+    outline: none;
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(33, 163, 196);
+    box-shadow: 0 10px 10px -10px;
+}
+.note {
+    display: flex;
+    background-color: rgb(224, 221, 221);
+    border-radius: 7px;
+    height: 15%;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top:75%;
+    align-items: center;
+}
+.note > p {
+    display: flex;
+    font-size:small;
+    color: rgb(99, 97, 97);
+}
+.divsInside > h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#message {
+    display: flex;    
+    height: 15%;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    bottom: 5%;
+    align-items: center;
+}
